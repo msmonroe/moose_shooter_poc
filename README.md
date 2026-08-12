@@ -1,13 +1,17 @@
-
 # Moose Shooter POC
 
 A deliberately tiny arcade-shooter prototype for testing the gameplay idea.
 
+## Current validation build
+
+Run `run_game.bat` on Windows. `main.py` launches `demo_v2.py`, the polished fake-gameplay build with a custom rear-view moose sprite embedded directly in the repository.
+
 ## What is in it
 
-- Moose player at the bottom of the screen
-- A/D or Left/Right arrows to move
-- Spacebar to shoot
+- Custom armed moose player sprite
+- Twin blue blasters
+- Mountain/forest night backdrop
+- Glow, particle, explosion, and screen-shake effects
 - Wave 1: aliens
 - Wave 2: chickens
 - Wave 3: shopping carts
@@ -18,29 +22,15 @@ A deliberately tiny arcade-shooter prototype for testing the gameplay idea.
 
 ## Windows 10 setup
 
-### 1. Install Python
+Install Python 3.11 or newer from python.org and check `Add Python to PATH` during installation.
 
-Install Python 3.11 or newer from python.org.
-
-During installation, check:
-
-    Add Python to PATH
-
-### 2. Open Command Prompt in this folder
-
-Then run:
+Then open Command Prompt in this folder and run:
 
     py -m pip install -r requirements.txt
 
-### 3. Start the game
-
-Double-click:
+After that, double-click:
 
     run_game.bat
-
-Or run:
-
-    py main.py
 
 ## Controls
 
@@ -52,6 +42,4 @@ Or run:
 
 ## Purpose
 
-This is not meant to be a finished game. It is a quick playable proof of concept that can also be screen-recorded for short-form video tests.
-
-Everything is drawn with simple Pygame shapes, so there are no external art assets or licensing problems in this prototype.
+This is not meant to be a finished commercial game. It is a fast playable validation demo designed to look convincing enough for gameplay clips while we test whether the premise gets attention.
