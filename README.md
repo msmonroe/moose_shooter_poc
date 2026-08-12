@@ -4,7 +4,7 @@ A deliberately tiny arcade-shooter prototype for testing the gameplay idea.
 
 ## Current validation build
 
-Run `run_game.bat` on Windows. It now launches `demo_v2.py`, the more polished fake-gameplay build with a custom rear-view moose sprite embedded directly in the repository.
+Run `run_game.bat` on Windows. `main.py` launches `demo_v2.py`, the polished fake-gameplay build with a custom rear-view moose sprite embedded directly in the repository.
 
 ## What is in it
 
